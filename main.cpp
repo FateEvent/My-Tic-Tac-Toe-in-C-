@@ -47,7 +47,6 @@ int main()
                 print_third_line(moves);
                 cout << "Bravo, Player 1! You won!\n" << endl;
             }
-
             else
             {
                 print_first_line(moves);
