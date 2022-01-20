@@ -23,10 +23,6 @@ void    choice_checker(int turn_counter, char moves[9], int choice)
         cout << "Please, enter a valid input!\n\n" << endl;
 }
 
-
-
-//  cout << "It's already taken.\n\n" << endl;
-
 void    first_line_move(char arr[9], int choice, int turn_counter)
 {
     if (turn_counter % 2 == 0 && choice == 2 && arr[2] == '0')
